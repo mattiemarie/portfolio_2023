@@ -27,18 +27,16 @@ export const NavBar = () => {
     }
 
     return (
-        <Navbar expand="lg" bg="dark" variant="dark" className = {scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar expand="lg" bg="dark" variant="dark" className = {scrolled ? "scrolled" : ""}>
+    <Container>
           <Nav className="me-auto">
-            <Nav.Link href="#home" className = {activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#bio" className = {activeLink === 'bio' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('bio')}>Bio</Nav.Link>
-            <Nav.Link href="#skills" className = {activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Features</Nav.Link>
-            <Nav.Link href="#projects"className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('projects')}>Pricing</Nav.Link>
+            <Nav.Link href="#about" className = {activeLink === 'bio' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('about')}>About Me</Nav.Link>
+            <Nav.Link href="#skills" className = {activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#projects"className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <Nav.Link href="#resume" className = {activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             <Nav.Link href="#contact" className = {activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
           </Nav>
-          {/* add icons for socials linkedin github */}
+          {/* add icons for socials linkedin github
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="#"></a>
@@ -46,10 +44,10 @@ export const NavBar = () => {
                 <a href="#"></a>
             </div>
             <button className="contactbtn" onClick={() => console.log ('connect')}><span>Submit</span></button>
-          </span>
-          
-        </Container>
-      </Navbar>
+          </span> */}
+
+    </Container>
+    </Navbar>
     );
 }
 
