@@ -5,19 +5,23 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './index.scss';
+import './index.css';
+
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
+  // 2. Wrap ChakraProvider at the root of your app
   return (
-    <div className="App">
-      <Header />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
-  );
-}
+    <ChakraProvider>
+        <Header />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+    </ChakraProvider>
+  )
+};
 
 export default App;
