@@ -10,9 +10,45 @@
   --yellow: rgba(237, 191, 36, 1);
   --purple: rgba(105, 72, 151, 1);
   --orange: rgba(235, 130, 49, 1);
+  background-color: var(--cream);
 }
 
-/* -------------------- PROJECTS PAGE ------------------------ */
+/* -------------------- SKILLS ------------------------ */
+.skill-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  display:flex;
+  flex-basis: 30%;
+  height: 200px;
+  align-items: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: var(--teal) !important;
+  border-radius: 50% !important;
+  border: 8px solid var(--blue) !important;
+}
+
+.skill-card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card-text {
+  color: var(--cream);
+  font-size: 35px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* -------------------- PROJECTS ------------------------ */
 .heading-container {
   width: 100%;
   height: 90px;
@@ -46,6 +82,11 @@ h1 {
   border: 8px solid var(--blue) !important;
 }
 
+.card:hover {
+  box-shadow: -1px 3px 20px var(--blue);
+  transition: transform 100ms;
+}
+
 .card-image {
   border: 7px solid var(--blue) !important;
 }
@@ -60,3 +101,5 @@ h1 {
   color: var(--cream);
   text-align: center; 
 }
+
+/* -------------------- Contact ------------------------ */
