@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
   return (
-    <div>
+    <div className='container'>
       <h2 className='icon-text'>You can also find me here!</h2>
       <div className="icon-container">
 

@@ -4,7 +4,7 @@ import { FormControl, FormLabel, Input, Textarea, Button } from "@chakra-ui/reac
 
 function Contact() {
   return (
-    <div>
+    <div className='container'>
       {/* Heading of Section -- Contact */}
       <div className='heading-container'>
         <h1>Contact Me</h1>

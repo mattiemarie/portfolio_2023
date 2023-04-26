@@ -5,7 +5,7 @@ import aboutimage from '../components/images/aboutimage.jpg';
 
 function About() {
   return (
-    <div>
+    <div className='container'>
     {/* Heading of Section -- About Me */}
       <div className='heading-container'>
         <h1>About Me</h1>

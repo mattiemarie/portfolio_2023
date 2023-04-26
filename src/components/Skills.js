@@ -4,7 +4,7 @@ import { Card, CardBody, Text, Stack} from '@chakra-ui/react'
 
 function Skills() {
   return (
-    <div>
+    <div className='container'>
       {/* Heading of Section -- Skills */}
       <div className='heading-container'>
         <h1>Skills</h1>

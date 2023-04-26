@@ -12,7 +12,62 @@
   --orange: rgba(235, 130, 49, 1);
 }
 
+:root {
+  --dracula: rgba(45, 52, 54,1.0);
+  --whisper: rgba(99, 110, 114,1.0);
+  --prunus: rgba(232, 67, 147,1.0);
+  --pico: rgba(253, 121, 168,1.0);
+  --exodus: rgba(108, 92, 231,1.0);
+  --shy: rgba(162, 155, 254,1.0);
+  --chi: rgba(214, 48, 49,1.0);
+  --glamour: rgba(255, 118, 117,1.0);
+  --electron: rgba(9, 132, 227,1.0);
+  --darner: rgba(116, 185, 255,1.0);
+  --orangeville: rgba(225, 112, 85,1.0);
+  --date: rgba(250, 177, 160,1.0);
+  --robin: rgba(0, 206, 201,1.0);
+  --faded: rgba(129, 236, 236,1.0);
+  --yarrow: rgba(253, 203, 110,1.0);
+  --lemon: rgba(255, 234, 167,1.0);
+  --mint: rgba(0, 184, 148,1.0);
+  --greenish: rgba(85, 239, 196,1.0);
+  background-color: var(--dracula);
+  
+}
+
+.container {
+  background-color: var(--dracula);
+}
+/* -------------------- NAVBAR ------------------------ */
+.navbar-container {
+  background-color: var(--teal);
+}
+
+.navbar-name {
+  color: var(--cream);
+  font-size: 40px !important;
+}
+
+.nav-btn {
+  color: var(--cream);
+  font-size: 20px !important;
+  background-color: var(--blue) !important;
+  width: 120px;
+  height: 55px !important;
+  margin-left: 20px;
+}
+
+.nav-btn:hover {
+  box-shadow: -1px 3px 20px var(--blue);
+  transition: transform 100ms;
+}
+
 /* -------------------- ABOUT ------------------------ */
+.about-container{
+  margin-bottom: 20px;
+  background-color: var(--dracula);
+}
+
 .about-image-container {
   display: flex;
   justify-content: center;
@@ -30,7 +85,6 @@
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px;
   margin-left: 40px;
   margin-right: 40px;
   text-align: justify;
@@ -79,7 +133,6 @@
   height: 90px;
   background-color: var(--blue);
   border-radius: 5px;
-  margin-top: 20px;
   margin-bottom: 20px;
   border: 10px solid var(--blue);
 }
@@ -143,7 +196,7 @@ h2  {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: var(--teal)
+  color: var(--exodus)
 }
 
 .contact-container {
@@ -152,24 +205,25 @@ h2  {
 }
 
 .contact-text {
-  color: var(--blue);
+  color: var(--prunus);
   font-weight: bold !important;
 }
 
 .contact-input {
-  color: var(--cream);
-  background-color: var(--teal) !important
+  color: var(--electron);
+  background-color: var(--greenish) !important
 }
 
 .contact-button {
   margin-top: 20px;
   margin-bottom: 50px;
-  background-color: var(--blue) !important;
+  font-weight: bold !important;
+  background-color: var(--yarrow) !important;
   color: var(--cream)
 }
 
 .contact-button:hover {
-  box-shadow: -1px 3px 20px var(--blue);
+  box-shadow: -1px 3px 20px var(--lemon);
   transition: transform 100ms;
 }
 

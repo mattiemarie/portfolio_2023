@@ -5,7 +5,7 @@ import picklefuzzImage from '../components/images/picklefuzz.jpg';
 
 function Projects() {
   return (
-  <div>
+  <div className='container'>
 
     {/* Heading of Section -- Projects */}
     <div className='heading-container'>
