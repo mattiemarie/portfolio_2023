@@ -127,7 +127,7 @@ h1 {
   text-align: center; 
 }
 
-/* -------------------- Contact ------------------------ */
+/* -------------------- CONTACT ------------------------ */
 h3 {
   display:flex;
   justify-content: center;
@@ -167,3 +167,61 @@ h2  {
   background-color: var(--blue) !important;
   color: var(--cream)
 }
+
+.contact-button:hover {
+  box-shadow: -1px 3px 20px var(--blue);
+  transition: transform 100ms;
+}
+
+/* -------------------- FOOTER ------------------------ */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.icon-text {
+  margin-top: 20px;
+}
+
+.github-icon {
+  width: 75px !important;
+  height: 75px !important;
+  color:var(--blue) !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.github-icon:hover {
+  color: var(--teal) !important;
+  transition: transform 100ms;
+}
+
+.linkedin-icon {
+  width: 75px !important;
+  height: 75px !important;
+  color:var(--blue) !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.linkedin-icon:hover {
+  color: var(--teal) !important;
+  transition: transform 100ms;
+}
+
+
+.email-icon {
+  width: 75px !important;
+  height: 75px !important;
+  color:var(--blue) !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.email-icon:hover {
+  color: var(--teal) !important;
+  transition: transform 100ms;
+}
+
