@@ -10,14 +10,15 @@
   --yellow: rgba(237, 191, 36, 1);
   --purple: rgba(105, 72, 151, 1);
   --orange: rgba(235, 130, 49, 1);
-  background-color: var(--cream);
 }
+
 
 /* -------------------- SKILLS ------------------------ */
 .skill-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: transparent;
 }
 
 .skill-card {
@@ -38,6 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
 }
 
 .skill-card-text {
@@ -103,3 +105,41 @@ h1 {
 }
 
 /* -------------------- Contact ------------------------ */
+h3 {
+  display:flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 30px;
+  color: var(--red);
+}
+
+h2  {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--teal)
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-text {
+  color: var(--blue);
+  font-weight: bold !important;
+}
+
+.contact-input {
+  color: var(--cream);
+  background-color: var(--teal) !important
+}
+
+.contact-button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: var(--blue) !important;
+  color: var(--cream)
+}
